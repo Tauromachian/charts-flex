@@ -295,6 +295,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@kurkle/color@npm:^0.3.0":
+  version: 0.3.2
+  resolution: "@kurkle/color@npm:0.3.2"
+  checksum: 79e97b31f8f6efb28c69d373f94b0c7480226fe8ec95221f518ac998e156444a496727ce47de6d728eb5c3369288e794cba82cae34253deb0d472d3bfe080e49
+  languageName: node
+  linkType: hard
+
 "@mdi/font@npm:^7.4.47":
   version: 7.4.47
   resolution: "@mdi/font@npm:7.4.47"
@@ -774,6 +781,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"chart.js@npm:^4.4.1":
+  version: 4.4.1
+  resolution: "chart.js@npm:4.4.1"
+  dependencies:
+    "@kurkle/color": ^0.3.0
+  checksum: 8c108f137824ea0e3d79914708b409298c12ed7d16da99a40ca3cab51466ef7b0068ad82ac0addeb288b938fe0621d3e5a6a913b60e72a729aa42aa96705fcad
+  languageName: node
+  linkType: hard
+
 "charts-flex@workspace:.":
   version: 0.0.0-use.local
   resolution: "charts-flex@workspace:."
@@ -782,12 +798,14 @@ __metadata:
     "@rushstack/eslint-patch": ^1.7.2
     "@vitejs/plugin-vue": ^5.0.3
     "@vue/eslint-config-prettier": ^9.0.0
+    chart.js: ^4.4.1
     eslint: ^8.56.0
     eslint-plugin-vue: ^9.21.1
     prettier: ^3.2.5
     vite: ^5.1.0
     vite-plugin-vuetify: ^2.0.1
     vue: ^3.4.15
+    vue-chartjs: ^5.3.0
     vuetify: ^3.5.4
   languageName: unknown
   linkType: soft
@@ -2423,6 +2441,16 @@ __metadata:
   bin:
     vite: bin/vite.js
   checksum: 827d67c5b951f0eab9d0293f30a6d60274da914d7548f4220021a596873c8a8891fe8d9418fac52486b8808a57cab8ee61ffe048520cce11b680eae4ed72bffa
+  languageName: node
+  linkType: hard
+
+"vue-chartjs@npm:^5.3.0":
+  version: 5.3.0
+  resolution: "vue-chartjs@npm:5.3.0"
+  peerDependencies:
+    chart.js: ^4.1.1
+    vue: ^3.0.0-0 || ^2.7.0
+  checksum: b9a238788a6ed0a076f93851728a6137834a2199c469bb1e239060687462458a9919922d0d0b3701ccafef6d34541d3ee7504fb276840020867991b14d34718e
   languageName: node
   linkType: hard
 
