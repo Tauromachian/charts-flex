@@ -43,7 +43,7 @@ const state = reactive({
         borderColor: "#703D57",
         backgroundColor: "#703D57",
 
-        fill: false,
+        fill: "start",
         tension: 0.3,
         pointRadius: 0
       }
