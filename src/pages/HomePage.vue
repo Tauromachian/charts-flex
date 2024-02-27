@@ -2,10 +2,8 @@
   <VApp>
     <VContainer>
       <VRow>
-        <VCol cols="12" md="2"
-          ><VCard
-            ><VCardTitle>Some Title</VCardTitle><VCardText></VCardText
-          ></VCard>
+        <VCol cols="12" md="2">
+          <ChartService></ChartService>
         </VCol>
         <VCol cols="12" md="4"
           ><VCard
