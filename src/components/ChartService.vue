@@ -31,7 +31,7 @@ const state = reactive({
   legendValues: [
     {
       label: "Views",
-      color: "#c724f0"
+      color: "#703D57"
     }
   ],
   data: {
@@ -40,8 +40,8 @@ const state = reactive({
       {
         label: "Views",
         data: [40, 39, 10, 40, 39, 80, 40],
-        borderColor: "#c724f0",
-        backgroundColor: "#c724f0",
+        borderColor: "#703D57",
+        backgroundColor: "#703D57",
 
         fill: false,
         tension: 0.3,
