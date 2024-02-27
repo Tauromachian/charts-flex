@@ -26,15 +26,15 @@ ChartJS.register(CategoryScale, LinearScale, PointElement, ArcElement, Tooltip);
 const state = reactive({
   legendValues: [
     {
-      label: "MDP",
+      label: "MDP (kW)",
       color: themeColors.colors.accent
     },
     {
-      label: "MDM",
+      label: "MDM (kW)",
       color: themeColors.colors.accent2
     },
     {
-      label: "MDD",
+      label: "MDD (kW)",
       color: themeColors.colors.accent3
     }
   ],
@@ -48,7 +48,7 @@ const state = reactive({
 
 const data = computed(() => {
   return {
-    labels: ["MDP", "MDD", "MDM"],
+    labels: ["MDP (kW)", "MDD (kW)", "MDM (kW)"],
     datasets: [
       {
         label: "Sales",
