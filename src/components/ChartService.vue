@@ -12,7 +12,8 @@ import {
   LinearScale,
   PointElement,
   LineElement,
-  Tooltip
+  Tooltip,
+  Filler
 } from "chart.js";
 import { Line } from "vue-chartjs";
 import ChartCard from "./ChartCard.vue";
@@ -24,7 +25,8 @@ ChartJS.register(
   LinearScale,
   PointElement,
   LineElement,
-  Tooltip
+  Tooltip,
+  Filler
 );
 
 const state = reactive({
