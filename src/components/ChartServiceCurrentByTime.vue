@@ -1,7 +1,7 @@
 <template>
-  <chart-card title="Servicio" :legend-values="state.legendValues">
+  <ChartCard title="Servicio" :legend-values="state.legendValues">
     <Line :data="state.data" :options="state.options" />
-  </chart-card>
+  </ChartCard>
 </template>
 
 <script setup>
