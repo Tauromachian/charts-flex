@@ -1,5 +1,5 @@
 <template>
-  <chart-card title="Website views" :legend-values="state.legendValues">
+  <chart-card title="Servicio 753 (kW)" :legend-values="state.legendValues">
     <Line :data="state.data" :options="state.options" />
   </chart-card>
 </template>
