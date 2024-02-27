@@ -39,3 +39,5 @@ export const options = {
     mode: "index"
   }
 };
+
+export const colorSelection = ["#703D57"];
