@@ -1,8 +1,8 @@
 <template>
   <v-card class="d-flex flex-column">
-    <v-card-text>
-      <h1>{{ title }}</h1>
-    </v-card-text>
+    <v-card-title>
+      {{ title }}
+    </v-card-title>
     <v-card-text class="py-1">
       <div class="d-flex flex-wrap gap-3">
         <span
