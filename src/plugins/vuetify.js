@@ -5,9 +5,14 @@ import "vuetify/styles";
 // Composables
 import { createVuetify } from "vuetify";
 
-const themeColors = {
+export const themeColors = {
   dark: false,
-  colors: { accent: "#703D57", neutral: "#ebfdff" }
+  colors: {
+    accent: "#703D57",
+    accent2: "#EB8A90",
+    accent3: "#FAC748",
+    neutral: "#ebfdff"
+  }
 };
 
 // https://vuetifyjs.com/en/introduction/why-vuetify/#feature-guides
