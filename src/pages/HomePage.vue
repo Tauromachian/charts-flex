@@ -11,8 +11,11 @@
             <VCardTitle>Some Title</VCardTitle><VCardText></VCardText>
           </VCard>
         </VCol>
-        <VCol cols="12" md="5">
+        <VCol cols="12" md="3">
           <ChartServicePowerFactor></ChartServicePowerFactor>
+        </VCol>
+        <VCol cols="12" md="2">
+          <ChartConsumeByPeriod></ChartConsumeByPeriod>
         </VCol>
         <VCol cols="12" md="6">
           <ChartServiceCurrentByTime></ChartServiceCurrentByTime>
@@ -39,4 +42,5 @@ import ChartService from "@/components/ChartService.vue";
 import ChartServicePowerFactor from "@/components/ChartServicePowerFactor.vue";
 import ChartServiceCurrentByTime from "@/components/ChartServiceCurrentByTime.vue";
 import ChartServiceVoltageByTime from "@/components/ChartServiceVoltageByTime.vue";
+import ChartConsumeByPeriod from "@/components/ChartConsumeByPeriod.vue";
 </script>
