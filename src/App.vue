@@ -8,6 +8,6 @@ import HomePage from "@/pages/HomePage.vue";
 
 <style>
 .v-application__wrap {
-  background: var(--neutral);
+  background: rgb(var(--v-theme-neutral));
 }
 </style>
