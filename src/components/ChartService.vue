@@ -17,7 +17,7 @@ import {
 import { Line } from "vue-chartjs";
 import ChartCard from "./ChartCard.vue";
 
-import { options } from "@/utils/chartGeneralOptions";
+import { options, backgroundGradient } from "@/utils/chartGeneralOptions";
 
 ChartJS.register(
   CategoryScale,
@@ -41,7 +41,7 @@ const state = reactive({
         label: "Views",
         data: [40, 39, 10, 40, 39, 80, 40],
         borderColor: "#703D57",
-        backgroundColor: "#703D57",
+        backgroundColor: backgroundGradient,
 
         fill: "start",
         tension: 0.3,
