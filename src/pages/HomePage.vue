@@ -11,10 +11,8 @@
             ><VCardTitle>Some Title</VCardTitle><VCardText></VCardText
           ></VCard>
         </VCol>
-        <VCol cols="12" md="5"
-          ><VCard
-            ><VCardTitle>Some Title</VCardTitle><VCardText></VCardText
-          ></VCard>
+        <VCol cols="12" md="5">
+          <ChartServicePowerFactor></ChartServicePowerFactor>
         </VCol>
         <VCol cols="12" md="1"
           ><VCard
@@ -52,4 +50,5 @@
 <script setup>
 import EntitiesTable from "@/components/EntitiesTable.vue";
 import ChartService from "@/components/ChartService.vue";
+import ChartServicePowerFactor from "@/components/ChartServicePowerFactor.vue";
 </script>
