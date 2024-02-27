@@ -39,3 +39,13 @@ export const options = {
     mode: "index"
   }
 };
+
+export function backgroundGradient(ctx) {
+  const canvas = ctx.chart.ctx;
+  const gradient = canvas.createLinearGradient(0, -160, 0, 120);
+
+  gradient.addColorStop(0, "#7F56D9");
+  gradient.addColorStop(1, "#fff");
+
+  return gradient;
+}
